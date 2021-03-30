@@ -1,6 +1,6 @@
 import com.alibaba.fastjson.JSONObject;
 
-import entity.entity.YsykzxjhMx;
+
 
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
@@ -13,7 +13,7 @@ public class app {
         //创建user对象
 //        Project project = new Project();
 //        ProjectJxzb project = new ProjectJxzb();
-        YsykzxjhMx project = new YsykzxjhMx();
+        Object project = new Object();
 
         Field[] field = project.getClass().getDeclaredFields();
         System.out.print("field:");
